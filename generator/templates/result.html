@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word Generator - Results</title>
+  </head>
+  <body>
+    <h1>Generated words:</h1>
+    <ul>
+      {% for word in words %}
+        <li>{{ word }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
